@@ -1,0 +1,7 @@
+.rodape {
+  background-color: var(--branco);
+}
+.rodape__texto {
+ color: var(--preto);
+ padding: 24px;
+}
