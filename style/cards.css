@@ -1,0 +1,54 @@
+/* posicionamento com flexbox */
+.card {
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin: 1.5em;
+   padding: 1em;
+}
+.card__descricao {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   margin-bottom: 0.5em;
+}
+
+.card__botoes {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.lista__botoes {
+   display: flex;
+}
+
+/* estilização do card*/
+
+.descricao__titulo {
+   font-weight: 700;
+   line-height: 24px;
+   color: var(--cor-titulo-laranja);
+}
+.descricao__titulo-principal {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--cor-azul);
+   margin: 0.5em 0em;
+}
+.descricao__texto {
+   font-size: 14px;
+   line-height: 21px;
+}
+
+.botoes__item {
+   margin: 0 0.5em;
+}
+.botao__ancora {
+   text-decoration: none;
+   font-weight: 700;
+   padding: 1em 2.2em;
+   border-radius: 3px;
+   background-color: var(--cor-titulo-laranja);
+   color: #FFFFFF;
+}
