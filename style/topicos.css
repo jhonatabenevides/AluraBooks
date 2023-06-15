@@ -1,8 +1,8 @@
-.topicos {
+.recentes {
    background-color: var(--branco);
    padding: 16px 0 0 0;
 }
-.topicos__div {
+.div__recentes {
    background: var(--cor-azul-gradiente);
    display: flex;
    flex-direction: column;
@@ -11,26 +11,28 @@
    padding: 24px 0px;
    gap: 32px;
 }
-.topicos__titulo {
-   font-weight: 300;
-   color: var(--branco);
-   text-transform: uppercase;
+.titulo__recentes {
+ font-weight: 300;
+ color: var(--branco);
+ text-transform: uppercase;
+
+
 }
-.topicos__lista {
+.div__botoes {
    display: flex;
    justify-content: center;
    text-align: center;
    flex-wrap:wrap;
    gap: 16px;
-   padding: 2%;
+
 }
 
-.topicos__link {
+.botoes__recentes {
    text-decoration: none;
    font-weight: 700;
    font-size: 14px;
-   color: var(--branco);
    padding: 16px 24px;
+   color: var(--branco);
    background-color: var(--cor-titulo-laranja);
    border-radius: 3px;
 }
