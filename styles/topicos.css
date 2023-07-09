@@ -10,7 +10,7 @@
    justify-content: center;
    align-items: center;
    padding: 24px 0px;
-   gap: 32px;
+   gap: 1.5em;
 }
 .topicos__titulo {
    font-weight: 300;
@@ -31,10 +31,25 @@
    font-size: 14px;
    color: var(--branco);
    background-color: var(--cor-titulo-laranja);
-   padding: 16px 24px;
+   padding: 1em 1.5em;
    border-radius: 3px;
-
-   
-
-
+}
+@media screen  and (min-width:1024px) {
+   .topicos__titulo {
+      font-size: 24px;
+   }
+   .topicos__item {
+      margin: 3em 0.5em;
+   }
+   .topicos__link {
+      font-size: 24px;
+   }
+}
+@media screen and (min-width:1728px) {
+   .topicos__div {
+      padding: 3em 20vw;
+   }
+   .topicos__titulo {
+      font-size: 32px;
+   }
 }

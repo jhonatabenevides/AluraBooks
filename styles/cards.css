@@ -1,4 +1,3 @@
-/* posicionamento com flexbox */
 .card {
    background: #FFFFFF;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -12,7 +11,6 @@
    align-items: start;
    margin-bottom: 0.5em;
 }
-
 .card__botoes {
    display: flex;
    justify-content: space-between;
@@ -21,9 +19,6 @@
 .lista__botoes {
    display: flex;
 }
-
-/* estilização do card*/
-
 .descricao__titulo {
    font-weight: 700;
    line-height: 24px;
@@ -40,7 +35,6 @@
    font-size: 14px;
    line-height: 21px;
 }
-
 .botoes__item {
    margin: 0 0.5em;
 }
@@ -51,4 +45,35 @@
    border-radius: 3px;
    background-color: var(--cor-titulo-laranja);
    color: #FFFFFF;
+}
+@media screen and (min-width:1024px) {
+   .card {
+      width: 50%;
+      margin: 2em auto;
+      padding: none;
+   }
+   .card__descricao {
+      margin-bottom: 1.5em;
+   }
+   .descricao__texto {
+      width: 80%;
+   }
+   .lista__botoes {
+      gap: 30px;
+   }
+   .botoes__item {
+      margin: 0;
+   }
+}
+@media screen and (min-width:1728px) {
+   .card {
+      width: 60%;
+      margin-left: 3em;
+   }
+   .descricao__titulo {
+      font-size: 32px;
+   }
+   .descricao__titulo {
+      line-height: normal;
+   }
 }
